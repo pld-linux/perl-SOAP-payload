@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	SOAP
-%define	pnam	payload
+%define		pdir	SOAP
+%define		pnam	payload
 Summary:	SOAP::payload - send various forms of information as SOAP envelopes
 Summary(pl):	SOAP::payload - wysy³anie ró¿nych form informacji jako opakowañ SOAP
 Name:		perl-SOAP-payload
