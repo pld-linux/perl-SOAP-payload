@@ -6,7 +6,7 @@
 %define		pdir	SOAP
 %define		pnam	payload
 Summary:	SOAP::payload - send various forms of information as SOAP envelopes
-Summary(pl):	SOAP::payload - wysy≥anie rÛønych form informacji jako opakowaÒ SOAP
+Summary(pl.UTF-8):   SOAP::payload - wysy≈Çanie r√≥≈ºnych form informacji jako opakowa≈Ñ SOAP
 Name:		perl-SOAP-payload
 Version:	1.02
 Release:	1
@@ -23,9 +23,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module can be used in conjunction with other modules such as DBI,
 to send data elements as part of a SOAP transaction envelope.
 
-%description -l pl
-Tego modu≥u moøna uøywaÊ wraz z innymi modu≥ami takimi jak DBI do
-wysy≥ania danych jako czÍ∂ci opakowania transakcji SOAP.
+%description -l pl.UTF-8
+Tego modu≈Çu mo≈ºna u≈ºywaƒá wraz z innymi modu≈Çami takimi jak DBI do
+wysy≈Çania danych jako czƒô≈õci opakowania transakcji SOAP.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
