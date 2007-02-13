@@ -6,7 +6,7 @@
 %define		pdir	SOAP
 %define		pnam	payload
 Summary:	SOAP::payload - send various forms of information as SOAP envelopes
-Summary(pl.UTF-8):   SOAP::payload - wysyłanie różnych form informacji jako opakowań SOAP
+Summary(pl.UTF-8):	SOAP::payload - wysyłanie różnych form informacji jako opakowań SOAP
 Name:		perl-SOAP-payload
 Version:	1.02
 Release:	1
