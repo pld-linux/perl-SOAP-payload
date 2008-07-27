@@ -9,7 +9,7 @@ Summary:	SOAP::payload - send various forms of information as SOAP envelopes
 Summary(pl.UTF-8):	SOAP::payload - wysyłanie różnych form informacji jako opakowań SOAP
 Name:		perl-SOAP-payload
 Version:	1.02
-Release:	1
+Release:	2
 License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
