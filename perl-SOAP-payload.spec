@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	SOAP
 %define		pnam	payload
+%include	/usr/lib/rpm/macros.perl
 Summary:	SOAP::payload - send various forms of information as SOAP envelopes
 Summary(pl.UTF-8):	SOAP::payload - wysyłanie różnych form informacji jako opakowań SOAP
 Name:		perl-SOAP-payload
@@ -14,6 +14,7 @@ License:	BSD-like
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f55388ab1c1b630733259db463fffc5f
+URL:		http://search.cpan.org/dist/SOAP-payload/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
