@@ -4,7 +4,6 @@
 
 %define		pdir	SOAP
 %define		pnam	payload
-%include	/usr/lib/rpm/macros.perl
 Summary:	SOAP::payload - send various forms of information as SOAP envelopes
 Summary(pl.UTF-8):	SOAP::payload - wysyłanie różnych form informacji jako opakowań SOAP
 Name:		perl-SOAP-payload
